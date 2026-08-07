@@ -792,26 +792,6 @@ button { font-family: inherit; cursor: pointer; }
 .offer-card--d { --o-accent: var(--color-plum); --o-accent-bg: var(--color-plum-bg); }
 .offer-card--e { --o-accent: #B4791E; --o-accent-bg: #FBEEDA; }
 
-/* ---------- Decision module intro (text + figure two-column on desktop) ---------- */
-.module-intro-row {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-lg);
-}
-.module-intro-text { min-width: 0; }
-.module-intro-figure { margin: 24px 0 0; }
-
-@media (min-width: 768px) {
-  .module-intro-row {
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 5%;
-  }
-  .module-intro-text { flex: 0 0 60%; max-width: 60%; }
-  .module-intro-figure { flex: 0 0 35%; max-width: 35%; margin: 0; }
-  .module-intro-figure img { max-width: 100%; }
-}
-
 /* ---------- Editorial images ---------- */
 .editorial-figure {
   margin: 36px 0;
