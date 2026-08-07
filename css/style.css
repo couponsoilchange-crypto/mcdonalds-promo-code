@@ -729,7 +729,7 @@ button { font-family: inherit; cursor: pointer; }
 /* ---------- Explore guides banner ---------- */
 .explore-banner {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--space-md);
 }
 .explore-hero-tile {
@@ -832,7 +832,7 @@ button { font-family: inherit; cursor: pointer; }
   .hero .container { grid-template-columns: 1fr; }
   .badge-row { grid-template-columns: repeat(2, 1fr); }
   .table-with-aside { grid-template-columns: 1fr; }
-  .explore-banner { grid-template-columns: 1fr; }
+  .explore-banner { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 620px) {
   .main-nav { display: none; }
@@ -849,6 +849,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 @media (max-width: 560px) {
   .trust-bar .container { flex-direction: column; align-items: flex-start; gap: var(--space-xs); }
+  .explore-banner { grid-template-columns: 1fr; }
 }
 @media (max-width: 480px) {
   .hero { padding: var(--space-xl) 0; }
