@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2C3A4F"/>
+      <stop offset="100%" stop-color="#1F2937"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square background -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)"/>
+
+  <!-- Ticket / coupon shape -->
+  <path d="M14 24
+           a4 4 0 0 1 0 -8
+           h4 v4 h-4
+           a2 2 0 0 0 0 4
+           h4 v4 h-4
+           a2 2 0 0 0 0 4
+           h4 v4 h-4
+           a2 2 0 0 0 0 4
+           h4 v4 h-4
+           a4 4 0 0 1 0 -8
+           Z" fill="none"/>
+
+  <!-- Simplified coupon card with notches -->
+  <g>
+    <path d="M13 20
+             c0 -2.2 1.8 -4 4 -4
+             h30
+             c2.2 0 4 1.8 4 4
+             v3
+             a3 3 0 0 0 0 6
+             v3
+             a3 3 0 0 0 0 6
+             v3
+             c0 2.2 -1.8 4 -4 4
+             h-30
+             c-2.2 0 -4 -1.8 -4 -4
+             v-3
+             a3 3 0 0 0 0 -6
+             v-3
+             a3 3 0 0 0 0 -6
+             Z"
+          fill="#F4A950"/>
+    <line x1="21" y1="17" x2="21" y2="47" stroke="#2C3A4F" stroke-width="2" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Percent symbol -->
+  <g fill="#1F2937">
+    <circle cx="30" cy="26" r="3.2"/>
+    <circle cx="42" cy="38" r="3.2"/>
+    <line x1="30" y1="38" x2="42" y2="26" stroke="#1F2937" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
