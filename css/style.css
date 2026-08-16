@@ -159,6 +159,17 @@ button { font-family: inherit; cursor: pointer; }
 }
 .hero-cta:hover { background: #E8993C; text-decoration: none; box-shadow: 0 5px 14px rgba(0,0,0,0.22); }
 .hero-cta:active { transform: scale(0.98); }
+.hero-image {
+  display: flex;
+  justify-content: center;
+}
+.hero-image img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: var(--radius-md, 12px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.28);
+}
 
 /* ---------- Trust bar ---------- */
 .trust-bar {
